@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Octal Calculations</title>
+  <link rel="stylesheet " href="/Css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div>
+      <div class="container-fluid">
+        <a href="Converter(Mainpage).html"> <img src="/Css/submit.png" alt="" width="30" height="24"
+            class="d-inline-block align-text-top"></a>
+
+
+        <a href="Converter(Mainpage).html" style="color: black;">MyCalculator</a>
+        <sup>®</sup>
+
+
+      </div>
+
+    </div>
+
+  </nav>
+  <h1>Octal Calculation : Add, Subtract, Multiply, Divide</h1>
+  <div class="container" id="baap">
+    <table class="table">
+      <thead>
+        <tr>
+
+          <div class="form-floating" id="btn1">
+
+            <textarea class="form-control first" id="pgl"></textarea>
+          </div>
+      </thead>
+      <tbody>
+        <tr>
+          <div class="form-floating">
+            <select class="form-select" id="chotabaap" aria-label="Floating label select example">
+              <!-- <label for="floatingSelect">Format</label> -->
+              <option selected>+</option>
+              <option value="-">-</option>
+              <option value="x">x</option>
+              <option value="/">/</option>
+            </select>
+
+          </div>
+
+        </tr>
+        <tr>
+
+          <div class="form-floating" id="btn1">
+
+            <textarea class="form-control second" id="pgl"></textarea>
+          </div>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+
+  <button type="button" id="btn2" class="btn btn-primary btn-lg calc">Calculate</button>
+  <button type="button" class="btn btn-primary btn-lg refresh">Refresh</button>
+
+  <div class="form-floating" id="btn1">
+    <textarea class="form-control" id="result" placeholder="Result"></textarea>
+  </div>
+
+  <script src="/Jss/octalOperations.js"></script>
+  <script src="/Jss/Errors.js"></script>
+
+  <footer>
+    <div class="center" id="footer">
+      Copyright &copy; www.MyCalculator.com. All rights reserved
+
+    </div>
+  </footer>
+</body>
+
+</html>
